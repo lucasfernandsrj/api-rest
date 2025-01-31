@@ -2,8 +2,8 @@ import express from 'express'
 
 const app = express()
 
-//indicar para o express ler body com json
-app.use(express.json())
+//indicar para o express ler body com json!
+app.use(express.json()) 
 
 //mock
 const selecoes = [
