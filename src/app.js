@@ -25,7 +25,7 @@ function buscarIndexSelecao(id){
 
 //criar rota padrão ou raiz
 app.get('/', (req, res) => {
-    res.send('Hello World! 2025')
+    res.send('Curso de NodeJS! 2025')
 })
 
 app.get('/selecoes/:id', (req, res) => {
